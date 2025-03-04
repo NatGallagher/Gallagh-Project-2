@@ -29,7 +29,7 @@ function searchBtn() {
     .then(data => {
         console.log(data);
 
-        const giphyImage = `<img class='image-round' width='100' height='75' src='${data.data[0].images.original.url}'>`
+        const giphyImage = `<img class='image-round' width='175' height='110' src='${data.data[0].images.original.url}'>`
         divDisplayInfo.innerHTML = giphyImage;
 
         /*const giphapi_image = `<img width='200' height='150' src='${data.data[0].images.original.url}'>`
