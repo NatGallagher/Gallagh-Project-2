@@ -41,6 +41,10 @@ body {
 
 h2 {
     color: magenta;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .flex-container {
@@ -57,4 +61,4 @@ h2 {
 
   div {
     background-color: whitesmoke;
-  }
+  }  
