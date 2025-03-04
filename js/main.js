@@ -10,7 +10,7 @@ function searchBtn() {
 
     //divDisplayInfo.innerText = userInput.value;
 
-    const searchText = "transformers";
+    const searchText = userInput.value;
     const giphyApiKey = "jOxDlf3Mt8SbKWzrI7MJEUrWmhYljT5C";
     const giphyUrl = `https://api.giphy.com/v1/gifs/search?api_key=${giphyApiKey}&q=${searchText}&limit=25&rating=g`;
 
@@ -32,7 +32,7 @@ function searchBtn() {
         divDisplayInfo.innerHTML = giphapi_image
         */
 
-          
+
     })
     .catch(error => {
         console.error('## There was a problem with the fetch operation:', error);
