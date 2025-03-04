@@ -31,6 +31,8 @@ function searchBtn() {
 
         divDisplayInfo.innerHTML = giphapi_image
         */
+
+          
     })
     .catch(error => {
         console.error('## There was a problem with the fetch operation:', error);
