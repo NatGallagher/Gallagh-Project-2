@@ -30,6 +30,7 @@ button {
 }
 
 .clear-btn {
-    background-color: whitesmoke;
-    border-radius: 30px;
+    border: 2px solid #000000;
+    background-color: black;
+    color: white;
 }
