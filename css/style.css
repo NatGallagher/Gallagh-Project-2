@@ -54,3 +54,7 @@ h2 {
       flex-direction: column;
     }
   }
+
+  div {
+    background-color: whitesmoke;
+  }
