@@ -1,0 +1,17 @@
+.div-scroll-1 {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.global-center-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.global-footer {
+    text-align: center;
+}
