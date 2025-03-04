@@ -15,3 +15,7 @@
 .global-footer {
     text-align: center;
 }
+
+.image-round {
+    border-radius: 30px;
+}
