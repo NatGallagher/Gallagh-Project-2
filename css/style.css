@@ -62,4 +62,11 @@ h2 {
   div {
     background-color: whitesmoke;
     border-radius: 30px;
-  }  
+    flex-direction: row;
+    }  
+
+    @media (max-width: 320px) {
+        div {
+          flex-direction: column;
+        }
+      }
