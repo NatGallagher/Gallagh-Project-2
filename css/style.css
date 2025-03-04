@@ -19,3 +19,17 @@
 .image-round {
     border-radius: 30px;
 }
+
+input {
+    background-color: grey;
+    color: white;
+}
+
+button {
+    background-color: whitesmoke;
+}
+
+.clear-btn {
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
