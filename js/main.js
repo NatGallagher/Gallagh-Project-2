@@ -29,13 +29,32 @@ function searchBtn() {
     .then(data => {
         console.log(data);
 
-        const giphyImage = `<img class='image-round' width='175' height='110' src='${data.data[0].images.original.url}'>`
-        divDisplayInfo.innerHTML = giphyImage;
+        //const giphyImage = `<img class='image-round' width='175' height='110' src='${data.data[0].images.original.url}'>`
+        //divDisplayInfo.innerHTML = giphyImage;
 
         /*const giphapi_image = `<img width='200' height='150' src='${data.data[0].images.original.url}'>`
 
         divDisplayInfo.innerHTML = giphapi_image
         */
+
+        let _html = "<div>"
+        for(let i = 0; i < data.data.length; i++) {
+          
+          if(i>23) {
+            
+            break;
+          }
+
+          _image = data.data[i].images.original.url
+          _html += `<img width="100" height="100" src='${_image}'>`
+          
+          _html += ""
+        }
+        
+        _html += "</div>"
+
+        divDisplayInfo.innerHTML = _html;
+       
 
 
     })
