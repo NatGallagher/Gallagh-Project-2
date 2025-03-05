@@ -48,6 +48,12 @@ h2 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.nav-1 {
+    margin-top: 10px
 }
 
 .flex-container {
