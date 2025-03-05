@@ -29,6 +29,6 @@ Gallagh-Project-2
 - https://natgallagher.github.io/Gallagh-Project-2/
 
 # future improvements
-- item 1
-- item 2
-- item 3
+- Add a "trending" section
+- Add a "last searched" section
+- Have a gif in the background of search screen
